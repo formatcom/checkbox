@@ -1,0 +1,35 @@
+<html>
+  <head>
+
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" />
+
+    <style>
+      
+      .checkbox-service {
+        display: none;
+      } 
+
+      .checkbox-service + label {
+        font-size: 20px;
+        padding: 5px;
+        background: blue;
+      }
+
+      .checkbox-service:checked + label {
+        background: red;
+      }
+
+      .checkbox-pointer {
+        cursor: pointer;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <input type="checkbox" class="checkbox-service" id="test" />
+    <label class="checkbox-pointer" for="test"><i class="fa fa-wifi"></i></label>
+
+  </body>
+</html>
+
